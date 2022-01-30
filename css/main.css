@@ -1,0 +1,46 @@
+* {
+    border: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hidden {
+    display: none;
+}
+
+.main-heading {
+    color: black;
+    cursor: pointer;
+    background-color: rgb(185, 181, 181);
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+#icon-grid {
+    display: grid;
+    grid-template-columns: 20em 20em 20em 20em;
+    grid-template-rows: auto;
+    grid-gap: 30px;
+    margin-left: 45px;
+    margin-top: 25px;
+}
+
+.container {
+    color: rgb(185, 181, 181);
+    filter: grayscale(0.8);
+    text-align: center;
+    background-color: transparent;
+    float: left;
+    transition: filter 0.6s ease-in-out;
+}
+
+.container:hover {
+    transform: scale(0.8);
+    filter: none;
+    cursor: pointer;
+}
+
+#app {
+    background-color: #964d1a;
+}
